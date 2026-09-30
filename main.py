@@ -20,17 +20,8 @@ def run_web_server():
 Thread(target=run_web_server, daemon=True).start()
 
 # --- Telegram Bot Kodları ---
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8659750495:AAHGbqBjPzJWwe2pSITIsEa7hrMn-ZY0XJ0")
-CHAT_ID = os.environ.get("CHAT_ID", "5899841533"
-First: BARIŞ
-Lang: tr
-Registered: Check Date
-
-🧠 Explanations and answers
-Free AI → DeepSeek & ChatGPT
-
-🖼 Visualize your ideas
-Make Image → NanoBanana")
+TELEGRAM_TOKEN = "8659750495:AAHGbqBjPzJWwe2pSITIsEa7hrMn-ZY0XJ0"
+CHAT_ID = "5899841533"
 URL = "https://sagradafamilia.org/"
 TARGET_DATES = ["2026-10-24", "2026-10-25"]
 
